@@ -6,7 +6,7 @@ An intelligent neural network-based system that predicts the **credit risk level
 
 ## 🚀 Demo
 
-🔗 Try the app here: [https://subtle-sign-detector-ka9g5apjnjvkmvufuy8jow.streamlit.app/](https://credit-risk-profiler-ecaxbstztixgzhyxbe9xhv.streamlit.app/)
+🔗 Try the app here: [credit-risk-profiler-garxdeglbsx2qzkdatghu6](credit-risk-profiler-garxdeglbsx2qzkdatghu6)
 
 ---
 
