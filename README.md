@@ -17,7 +17,7 @@ An intelligent neural network-based system that predicts the **credit risk level
 - 🧼 Handles **missing values, scaling**, and preprocessing  
 - 🎯 Predicts 3 classes: **Low**, **Medium**, and **High** credit risk  
 - 🖥️ **Streamlit Web App** with an intuitive banking-themed UI  
-- 📊 Model Evaluation: Precision, Recall, F1-score  
+- 📊 Model Evaluation: Achieved **89% accuracy** with strong recall
 
 ---
 ## 🧠 ML Workflow
