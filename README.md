@@ -1,6 +1,6 @@
 # 💳 Credit Risk Profiler 🏦
 
-An intelligent neural network-based system that predicts the **credit risk level**(Low, Medium, High)  of individuals using historical financial and credit-related data. It is designed to assist banks and financial institutions in quickly profiling clients and making data-driven decisions.
+An intelligent **XGBoost-based classification system** that predicts whether an individual is likely to default on a loan, using financial and credit-related data. Designed to support banks and financial institutions in making fast, data-driven lending decisions.
 
 ---
 
@@ -12,25 +12,24 @@ An intelligent neural network-based system that predicts the **credit risk level
 
 ## 📌 Features
 
-- 🧮 **Neural Network Classification Model** using TensorFlow/Keras  
-- ⚖️ Tackles **class imbalance** using SMOTE  
-- 🧼 Handles **missing values, scaling**, and preprocessing  
-- 🎯 Predicts 3 classes: **Low**, **Medium**, and **High** credit risk  
-- 🖥️ **Streamlit Web App** with an intuitive banking-themed UI  
-- 📊 Model Evaluation: Achieved **89% accuracy** with strong recall
+- ⚡ XGBoost Classifier trained to detect loan default risk (Binary classification)  
+- ⚖️ Handles class imbalance using undersampling
+- 🧼 Preprocessing pipeline with scaling, label encoding, and validation 
+- ✅ Predicts loan default status: Default (0) or Not Default (1)  
+- 🖥️ Clean, intuitive Streamlit Web App with a professional banking-themed UI
+- 📊  Model Evaluation with strong precision & recall across both classes
 
 ---
 ## 🧠 ML Workflow
 
 1. **Data Preprocessing**
    - Removed irrelevant columns and handled missing values
-   - Scaled features using `StandardScaler`
-   - Applied **SMOTE** to balance class distribution
+   - Addressed class imbalance via undersampling
 
 2. **Modeling**
-   - Built a Neural Network using Keras with Dense layers
-   - Used **Softmax** activation, `SparseCategoricalCrossentropy` loss, and `Adam` optimizer
-   - Implemented **EarlyStopping** to reduce overfitting
+   - Built an XGBClassifier using XGBoost
+   - Tuned hyperparameters for optimal performance
+   - Evaluated using precision, recall, and F1-score
 
 3. **Deployment**
    - Developed an interactive Streamlit UI with a clean banking theme
@@ -44,7 +43,7 @@ An intelligent neural network-based system that predicts the **credit risk level
 - TensorFlow / Keras  
 - Pandas & NumPy  
 - Scikit-learn
-- Imbalanced-learn (SMOTE) 
+- XGBoost
 - Streamlit  
 - Joblib 
 
