@@ -12,10 +12,9 @@ An intelligent **XGBoost-based classification system** that predicts whether an 
 
 ## 📌 Features
 
-- XGBoost Classifier trained to detect loan default risk (Binary classification)  
+- **XGBoost Classifier** trained to detect loan default risk (Binary classification)  
 - Handles class imbalance using undersampling
-- Preprocessing pipeline with scaling, label encoding, and validation 
-- Predicts loan default status: Default (0) or Not Default (1)  
+- **Predicts loan default status**: Default (0) or Not Default (1)  
 - Clean, intuitive Streamlit Web App with a professional banking-themed UI
 - Model Evaluation with strong precision & recall across both classes
 
@@ -28,7 +27,6 @@ An intelligent **XGBoost-based classification system** that predicts whether an 
 
 2. **Modeling**
    - Built an XGBClassifier using XGBoost
-   - Tuned hyperparameters for optimal performance
    - Evaluated using precision, recall, and F1-score
 
 3. **Deployment**
