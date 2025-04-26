@@ -35,6 +35,25 @@ An intelligent **XGBoost-based classification system** that predicts whether an 
 
 ---
 
+## 📥 Input Parameters
+
+| Feature               | Description                            |
+|-----------------------|----------------------------------------|
+| Home Ownership        | (Rent / Mortgage / Own / Other)        |
+| Employment Length     | Length of Employement (in months)      |
+| Loan Grade            | Credit Worthiness of Borrower          |
+| Loan Amount           | Amount of Loan                         |
+| Interest Rate         | Interest rate of the loan              |
+| Loan Approval Status  | Not approved(0) / Approved(1)          |
+| Loan Percent of Income| Loan amount as a percentage of income  |
+
+---
+## 📤 Output
+
+- `Binary Prediction` if the applicant is likely to default or not
+
+---
+
 ## 🗂️ Technologies Used
 
 - Python 
