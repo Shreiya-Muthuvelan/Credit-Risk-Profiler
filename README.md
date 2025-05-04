@@ -56,8 +56,7 @@ An intelligent **XGBoost-based classification system** that predicts whether an 
 
 ## 🗂️ Technologies Used
 
-- Python 
-- TensorFlow / Keras  
+- Python   
 - Pandas & NumPy  
 - Scikit-learn
 - XGBoost
