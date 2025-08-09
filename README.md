@@ -1,77 +1,85 @@
-# 💳 Credit Risk Profiler 🏦
+# 💳 Credit Risk Profiler — Machine Learning Web App for Loan Default Prediction 
 
-An intelligent **XGBoost-based classification system** that predicts whether an individual is likely to default on a loan, using financial and credit-related data. Designed to support banks and financial institutions in making fast, data-driven lending decisions.
+A **Streamlit-powered machine learning application** that predicts whether a loan applicant is likely to default, using **XGBoost classification** on financial and credit-related data.  
 
----
-
-## 🚀 Demo
-
-🔗 Try the app here:([credit-risk-profiler-garxdeglbsx2qzkdatghu6](https://credit-risk-profiler-ecaxbstztixgzhyxbe9xhv.streamlit.app/))
+Built to assist **banks and financial institutions** in making faster, data-driven lending decisions.
 
 ---
 
-## 📌 Features
-
-- **XGBoost Classifier** trained to detect loan default risk (Binary classification)  
-- Handles class imbalance using undersampling
-- **Predicts loan default status**: Default (0) or Not Default (1)  
-- Clean, intuitive Streamlit Web App with a professional banking-themed UI
-- Model Evaluation with strong precision & recall across both classes
+## 🚀 Live Demo
+[![Streamlit App](https://img.shields.io/badge/Try%20the%20App-Streamlit-blue?logo=streamlit)](https://credit-risk-profiler-ecaxbstztixgzhyxbe9xhv.streamlit.app/)
 
 ---
-## 🧠 ML Workflow
 
-1. **Data Preprocessing**
-   - Removed irrelevant columns and handled missing values
-   - Addressed class imbalance via undersampling
+## 📌 Key Features
+- ⚡ **Fast Loan Risk Prediction** using an optimized XGBoost Classifier  
+- 📊 **Balanced Dataset Handling** with undersampling to reduce bias in predictions  
+- 🏦 **Professional Banking-Themed UI** for a clean and intuitive user experience  
+- 📈 **High Precision & Recall** for both “Default” and “Not Default” classes  
+- 🌐 **Deployed on Streamlit Community Cloud** — accessible from any browser  
 
-2. **Modeling**
-   - Built an XGBClassifier using XGBoost
-   - Evaluated using precision, recall, and F1-score
+---
 
-3. **Deployment**
-   - Developed an interactive Streamlit UI with a clean banking theme
-   - Deployed on **Streamlit Community Cloud** for public access
+## 🧠 Problem & Solution
+Loan default prediction is critical for minimizing financial risk while ensuring fair access to credit.  
+
+This tool helps lending teams **quickly assess borrower risk** using historical patterns, improving decision-making and reducing manual evaluation time.
+
+---
+
+## ⚙️ ML Workflow
+1. **Data Preprocessing**  
+   - Removed non-informative columns based on correlation and domain knowledge  
+   - Handled missing values using median imputation  
+   - Balanced classes via random undersampling to improve recall for minority class  
+
+2. **Model Development**  
+   - Algorithm: XGBoost Classifier for binary classification  
+   - Metrics: Precision, Recall, and F1-score to evaluate model robustness  
+
+3. **Deployment**  
+   - UI: Streamlit with a clean, banking-inspired theme  
+   - Hosting: Streamlit Community Cloud with serialized model using Joblib  
 
 ---
 
 ## 📥 Input Parameters
 
-| Feature               | Description                            |
-|-----------------------|----------------------------------------|
-| Home Ownership        | (Rent / Mortgage / Own / Other)        |
-| Employment Length     | Length of Employement (in months)      |
-| Loan Grade            | Credit Worthiness of Borrower          |
-| Loan Amount           | Amount of Loan                         |
-| Interest Rate         | Interest rate of the loan              |
-| Loan Approval Status  | Not approved(0) / Approved(1)          |
-| Loan Percent of Income| Loan amount as a percentage of income  |
+| Feature               | Description                                  |
+|-----------------------|----------------------------------------------|
+| Home Ownership        | Rent / Mortgage / Own / Other                |
+| Employment Length     | Duration of employment in months             |
+| Loan Grade            | Creditworthiness category of the borrower    |
+| Loan Amount           | Total loan amount requested                  |
+| Interest Rate         | Loan interest rate                           |
+| Loan Approval Status  | 0 = Not approved, 1 = Approved                |
+| Loan % of Income      | Loan amount as a percentage of borrower income|
 
 ---
+
 ## 📤 Output
 
-- `Binary Prediction` if the applicant is likely to default or not
+| Output Metric        | Description                                    |
+|----------------------|------------------------------------------------|
+| Default Prediction   | 0 = Default Likely, 1 = Not Default Likely     |
+| Risk Explanation     | Interpretable output indicating decision basis |
 
 ---
 
-## 🗂️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python   
-- Pandas & NumPy  
-- Scikit-learn
-- XGBoost
-- Streamlit  
-- Joblib 
+**Languages & Libraries**  
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)  
+Pandas • NumPy • Scikit-learn • XGBoost  
+
+**Deployment**  
+Streamlit • Joblib  
 
 ---
 
 ## 👩‍💻 Author
-
-**Shreiya**  
-2nd Year CSE Student | ML Enthusiast  
-📍 BITS Pilani Dubai Campus  
-🔗 [LinkedIn](https://www.linkedin.com/in/shreiyamuthuvelan)
+**Shreiya Muthuvelan**  
+2nd Year CSE @ BITS Pilani Dubai 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/shreiyamuthuvelan)  
 
 ---
-
-
