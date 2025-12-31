@@ -1,4 +1,4 @@
-# 💳 Credit Risk Profiler — Machine Learning Web App for Loan Default Prediction 
+# Credit Risk Profiler — Machine Learning Web App for Loan Default Prediction 
 
 A **Streamlit-powered machine learning application** that predicts whether a loan applicant is likely to default, using **XGBoost classification** on financial and credit-related data.  
 
@@ -6,28 +6,28 @@ Built to assist **banks and financial institutions** in making faster, data-driv
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 [![Streamlit App](https://img.shields.io/badge/Try%20the%20App-Streamlit-blue?logo=streamlit)](https://credit-risk-profiler-ecaxbstztixgzhyxbe9xhv.streamlit.app/)
 
 ---
 
-## 📌 Key Features
-- ⚡ **Fast Loan Risk Prediction** using an optimized XGBoost Classifier  
-- 📊 **Balanced Dataset Handling** with undersampling to reduce bias in predictions  
-- 🏦 **Professional Banking-Themed UI** for a clean and intuitive user experience  
-- 📈 **High Precision & Recall** for both “Default” and “Not Default” classes  
-- 🌐 **Deployed on Streamlit Community Cloud** — accessible from any browser  
+##  Key Features
+- **Fast Loan Risk Prediction** using an optimized XGBoost Classifier  
+- **Balanced Dataset Handling** with undersampling to reduce bias in predictions  
+- **Professional Banking-Themed UI** for a clean and intuitive user experience  
+- **High Precision & Recall** for both “Default” and “Not Default” classes  
+- **Deployed on Streamlit Community Cloud** — accessible from any browser  
 
 ---
 
-## 🧠 Problem & Solution
+## Problem & Solution
 Loan default prediction is critical for minimizing financial risk while ensuring fair access to credit.  
 
 This tool helps lending teams **quickly assess borrower risk** using historical patterns, improving decision-making and reducing manual evaluation time.
 
 ---
 
-## ⚙️ ML Workflow
+##  ML Workflow
 1. **Data Preprocessing**  
    - Removed non-informative columns based on correlation and domain knowledge  
    - Handled missing values using median imputation  
@@ -43,7 +43,7 @@ This tool helps lending teams **quickly assess borrower risk** using historical 
 
 ---
 
-## 📥 Input Parameters
+## Input Parameters
 
 | Feature               | Description                                  |
 |-----------------------|----------------------------------------------|
@@ -57,7 +57,7 @@ This tool helps lending teams **quickly assess borrower risk** using historical 
 
 ---
 
-## 📤 Output
+## Output
 
 | Output Metric        | Description                                    |
 |----------------------|------------------------------------------------|
@@ -66,7 +66,7 @@ This tool helps lending teams **quickly assess borrower risk** using historical 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Languages & Libraries**  
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)  
